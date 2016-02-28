@@ -1,4 +1,4 @@
-class Dog {
+class Dog extends Animal{
   //global varibles
   int age;
   //constructor
@@ -26,6 +26,7 @@ class Dog {
     spike.run(6);
     int spikeAge = spike.getAge();
     System.out.println(spikeAge);
+    spike.checkStatus();
 	}
 
 }
